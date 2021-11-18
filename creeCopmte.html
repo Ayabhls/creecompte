@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>  
+  <meta charset ="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="creeCompte.css">
+  <title> CREE COMPTE </title>
+  
+  </head>
+  <body>
+           <div id="container_1"> 
+             <fieldset> 
+            <legend>
+Formulaire d'inscription reserve aux etudiants de la faculte INTIC universite Constantine 2 - 3eme annee licence :</legend>
+               
+            <table> 
+<tr> <td> Nom </td> <td>  <input type="text" placeholder=" saisir votre nom "></td></tr>
+<tr> <td> Prenom </td> <td>  <input type="text" placeholder=" saisir votre Prenom "></td></tr>
+<tr> <td> Date de naissance </td> <td>  <input type="text" placeholder=" saisir votre Date de naissance "></td></tr>
+<tr> <td> Adresse </td> <td>  <input type="text" placeholder=" saisir votre Adresse "></td></tr>
+<tr> <td> Email </td> <td>  <input type="text" placeholder=" saisir votre Email "></td></tr>
+<tr> <td> Telephone </td> <td>  <input type="text" placeholder=" saisir votre Telephone "></td></tr>
+<tr> <td> nom d'utilisateur </td> <td>  <input type="text" placeholder=" saisir votre nom d'utilisateur "></td></tr>
+<tr> <td> Mot de passe </td> <td>  <input type="text" placeholder=" saisir votre mot de passe "></td></tr>
+<tr> <td> Email</td> <td>  <input type="text" placeholder=" saisir votre Email "></td></tr>
+<tr> <td> Sexe </td> <td>masculin  <input type="radio" > femenin <input type="radio"></td></tr>
+
+
+
+
+
+
+
+
+
+</table>
+
+
+<div class="popup" id="popup-1">
+  <div class="overlay"> </div> 
+  <div class="content">  
+    <div class="close-btn" onclick="togglePopup()">&times;</div>
+    <h1> message </h1>
+    
+    <br>
+    <p> le compte a ete cree avec succes</p>
+  </div>
+</div>
+<button onclick="togglePopup()"> AJOUTER </button>
+      <input type="submit" value= "ANUULER" >
+		</fieldset>
+</div>
+
+
+
+
+<script src="popupmsg.js"></script>
+</body>
+</html>
